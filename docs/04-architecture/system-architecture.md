@@ -1,19 +1,66 @@
 # System Architecture
 
-Frontend
-React 
+## Overview
 
+The DS-Forge system consists of three main layers:
+
+Frontend
 Backend
+AI services
+
+## Frontend
+
+Responsibilities:
+
+- user interface
+- problem display
+- code editor
+- result visualization
+
+Technology:
+
+React or Next.js
+
+## Backend
+
+Responsibilities:
+
+- authentication
+- problem management
+- submission handling
+- evaluation engine
+
+Technology:
+
 Django REST API
 
-Database
+## Database
+
+Stores:
+
+- users
+- problems
+- datasets
+- submissions
+
+Technology:
+
 PostgreSQL
 
-AI Engine
-Open source LLM (Llama)
+## Code Execution Service
 
-Components
-- Problem service
-- Submission service
-- Evaluation engine
-- AI question generator
+Executes user code inside isolated environments.
+
+Implementation:
+
+Docker containers.
+
+## AI Services
+
+Responsible for:
+
+- generating questions
+- providing hints
+- explaining solutions
+
+Models may include open-source LLMs.
