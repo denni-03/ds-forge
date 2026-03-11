@@ -1,16 +1,19 @@
 # Tech Stack
 
 Frontend
-React 
+React or Next.js
 
 Backend
-Django
+Django REST Framework
 
 Database
 PostgreSQL
 
-AI
-Open source LLM
+AI Models
+Open-source LLMs
 
 Containerization
 Docker
+
+Deployment
+Cloud infrastructure
