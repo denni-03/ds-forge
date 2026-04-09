@@ -46,11 +46,10 @@ Teachers who want structured datasets and exercises for students.
 ### Hiring Managers
 Companies that want to evaluate candidate data skills.
 
-## User Goals
-
+## User Goals (Updated)
 Users want to:
-
-- practice realistic data problems
-- improve SQL and Python skills
-- prepare for interviews
-- simulate real job tasks
+- Practice unlimited, non-repetitive technical questions
+- Receive actionable feedback to improve their solutions
+- Track skill growth over time
+- Revisit weak topics automatically (revision tours)
+- Simulate real interview conditions
