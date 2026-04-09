@@ -1,15 +1,16 @@
 # DS-Forge Product Vision
 
 ## Overview
-DS-Forge is an AI-powered platform designed to help aspiring and professional data practitioners practice real-world data analysis problems using realistic datasets and interactive coding environments.
+DS-Forge is an AI-powered technical skills practice platform for job seekers preparing for interviews in software engineering, data science, and analytics. It generates **unlimited dynamic questions**, provides **intelligent feedback**, and uses **spaced repetition** to ensure long-term retention.
 
-The platform combines datasets, coding challenges, and AI-assisted learning to simulate real data analysis tasks encountered in industry.
+The platform combines coding challenges, SQL problems, dataset analysis, and AI-assisted learning – all within a single environment.
 
 ## Vision Statement
-To become the leading AI-powered platform for mastering real-world data analysis and data science interview skills.
+To become the most intelligent, adaptive technical skills practice platform, where AI dynamically generates challenges and provides personalized feedback, making every job seeker industry-ready.
 
 ## Mission
-Empower learners and professionals to practice data analysis, SQL, Python, and machine learning concepts through real datasets and intelligent AI guidance.
+Empower job seekers to master technical interviews through unlimited AI-generated practice, real-time feedback, and personalized learning paths.
+
 
 ## Long-Term Vision
 DS-Forge aims to evolve into a comprehensive ecosystem for data professionals including:
@@ -19,8 +20,16 @@ DS-Forge aims to evolve into a comprehensive ecosystem for data professionals in
 - Interview preparation simulations
 - Machine learning practice environments
 - AI code review and feedback
+- B2C freemium subscription (individuals)
+- B2B enterprise assessment integration (companies)
+- AI-driven personalized learning paths based on skill decay patterns
 
-## Key Pillars
+## Key Pillars (Updated)
+1. **Dynamic AI-generated questions** – never run out of fresh challenges.
+2. **Intelligent feedback** – correctness, efficiency, code quality, alternatives.
+3. **Revision tours** – spaced repetition to combat forgetting.
+4. **Dataset-driven practice** – real-world data analysis.
+5. **Gamification** – leaderboards, streaks, points.
 
 ### Real-world datasets
 Problems based on actual business scenarios.
