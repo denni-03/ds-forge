@@ -26,6 +26,18 @@ Needs:
 - prepare for technical interviews
 - practice real scenarios
 
+### 4. Software Engineering Job Seekers
+Individuals preparing for coding interviews (FAANG, startups) who need practice with algorithms, data structures, and system design basics.
+
+Needs:
+- Unlimited coding challenges
+- AI feedback on code efficiency and style
+- Hints and step-by-step guidance when stuck
+- Performance tracking across topics (arrays, trees, DP, etc.)
+
+### 5. General Technical Job Seekers
+Anyone applying for roles that require SQL, Python, or analytical reasoning.
+
 ## Secondary Users
 
 ### Educators
