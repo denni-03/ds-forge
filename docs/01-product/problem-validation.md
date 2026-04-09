@@ -44,5 +44,22 @@ Each focuses on a subset of skills but none integrate:
 - coding practice
 - AI learning assistance
 
+## Broader Technical Interview Problem
+
+Beyond data roles, software engineering candidates face similar issues:
+- LeetCode and HackerRank provide **static question banks** – users memorize solutions rather than learn problem-solving.
+- No platform generates **new, unseen questions** dynamically.
+- Feedback is limited to pass/fail; no intelligent code optimization suggestions.
+- Candidates have no personalized **revision tour** when they return after a break.
+
+## DS-Forge's Unique Solution
+- Dynamically generated AI questions (unlimited, non-repetitive)
+- AI-powered feedback (correctness, efficiency, code quality, alternatives)
+- Spaced repetition via **revision tours** after absence
+- Dataset-driven practice (CSV, real-world scenarios)
+- Hint system with 4 tiers (directional → full solution)
+
+This addresses the core limitations of existing platforms.
+
 ## Conclusion
 There is a clear opportunity to build a platform that combines real datasets, coding practice, and AI guidance for data professionals.
