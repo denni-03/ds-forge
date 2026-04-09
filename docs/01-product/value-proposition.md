@@ -27,8 +27,18 @@ AI provides hints and explanations during problem solving.
 ### Interview preparation
 Problems reflect real interview scenarios.
 
-## Competitive Advantage
+## Competitive Advantage (Updated)
 
-DS-Forge uniquely combines:
+| Platform | Question Source | Feedback Type | Personalization | Dataset Practice | Revision Tours |
+|----------|----------------|---------------|-----------------|------------------|----------------|
+| LeetCode | Static bank | Pass/fail + basic | No | No | No |
+| HackerRank | Static bank | Pass/fail | No | No | No |
+| Kaggle | Static competitions | Public leaderboard | No | Yes (limited) | No |
+| **DS-Forge** | **AI-generated (dynamic)** | **AI feedback (optimization, alternatives)** | **Yes (skill-based)** | **Yes (upload any CSV)** | **Yes (spaced repetition)** |
 
-datasets + coding + AI tutor
+## Why Users Will Pay
+- **Unlimited fresh questions** – never see the same problem twice.
+- **AI feedback that teaches** – not just "wrong answer", but "here's how to optimize from O(n²) to O(n)".
+- **Revision tours** – automatically reviews weak spots when you return after a break.
+- **Dataset-driven challenges** – practice with your own CSV files.
+- **Gamification** – streaks, leaderboards, and points keep you motivated.
