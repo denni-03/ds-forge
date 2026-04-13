@@ -1,53 +1,78 @@
 # Coding Standards
 
 ## Objective
-
-Maintain consistent and maintainable code across the DS-Forge project.
+Maintain consistent, readable, and maintainable code across DS-Forge.
 
 ## General Principles
+- Code must be readable (comments where needed)
+- Follow consistent naming conventions
+- DRY – Don't Repeat Yourself
+- Write tests for critical logic
 
-- code must be readable
-- follow consistent naming conventions
-- avoid duplication
+## Backend Standards (Python + Django)
 
-## Backend Standards
+### Style
+- PEP 8 compliant
+- Line length: 88 characters (Black default)
+- Use Black for auto-formatting
+- Use flake8 for linting
 
-Language: Python
+### Naming
+| Type | Convention | Example |
+|------|------------|---------|
+| Classes | PascalCase | `UserProfileView` |
+| Functions/Variables | snake_case | `calculate_score` |
+| Constants | UPPER_SNAKE_CASE | `MAX_RETRY_COUNT` |
 
-Framework: Django
+### Project Structure
 
-Guidelines:
+backend/
+├── dsforge_backend/
+│ ├── settings/
+│ │ ├── base.py
+│ │ ├── local.py
+│ │ └── production.py
+│ └── urls.py
+├── apps/
+│ ├── users/
+│ │ ├── models.py
+│ │ ├── views.py
+│ │ ├── serializers.py
+│ │ ├── services.py
+│ │ └── urls.py
+│ ├── questions/
+│ └── evaluation/
+└── manage.py
 
-- use class-based views
-- separate business logic into services
-- avoid large view functions
 
-Example structure:
+### Views
+- Use class-based views (CBV) or viewsets
+- Keep views thin – business logic in services.py
 
-views/
-services/
-models/
-serializers/
+### Imports Order
+1. Standard library
+2. Third-party
+3. Django
+4. Local apps
 
-## Frontend Standards
+## Frontend Standards (React + JavaScript)
 
-Framework: React or Next.js
+### Style
+- Prettier for formatting
+- ESLint (Airbnb rules)
 
-Guidelines:
+### Naming
+| Type | Convention | Example |
+|------|------------|---------|
+| Components | PascalCase | `UserProfile.jsx` |
+| Hooks | camelCase + `use` prefix | `useAuth.js` |
+| Variables/Functions | camelCase | `fetchUserData` |
 
-- components should be reusable
-- separate UI and logic
-- use descriptive component names
-
-## Git Practices
-
-Use feature branches:
-
-feature/problem-library  
-feature/ai-hints
-
-Commit messages should clearly describe changes.
-
-Example:
-
-Add dataset viewer component
+### Component Structure
+```jsx
+const UserProfile = ({ userId }) => {
+  // hooks
+  // event handlers
+  return (...);
+};
+export default UserProfile;
